@@ -1,0 +1,15 @@
+git add .
+git commit -m "Mensaje del commit"
+git push
+
+Con esto creo una carpeta y me desplazo a ella
+mkdir mi-proyecto && cd mi-proyecto
+
+para construir el dockerfile
+
+docker build -t python38:latest .
+latest es el nombre del contenedor en este caso con base ppython 3.8
+
+para saber que imagenes docker tenemos en el entorno
+
+docker images
