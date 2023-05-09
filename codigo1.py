@@ -1,2 +1,1 @@
-def ejecutar():
-    print("Hola Mundo")
+print("Hola Mundo")
