@@ -1,0 +1,248 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: top;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  header nav ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+  
+  header nav ul li a:hover {
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Estilos de las secciones */
+  
+  main {
+    margin-top: 80px;
+    padding-bottom: 50px;
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    margin-top: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+  section ul li h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  section ul li p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  section.hyc {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  section.hyc h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  section.hyc .mitad {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section.hyc .mitad ul {
+    width: 45%;
+  }
+  
+  section.hyc .mitad ul li {
+    margin-bottom: 15px;
+  }
+  
+  section.hyc .mitad ul.ulclas {
+    margin-left: 5%;
+  }
+  
+  /* Estilos del formulario de contacto */
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact-form div {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact-form textarea {
+    height: 150px;
+  }
+  
+  
+  /* Estilos para la sección Habilidades y Competencias */
+  .hyc {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .hyc h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hyc .mitad {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hyc .mitad ul {
+    list-style: none;
+    text-align: center;
+    width: 45%;
+  }
+  
+  .hyc .mitad li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .hyc .mitad .ulclas {
+    border-left: 1px solid #ccc;
+    margin-left: 40px;
+    padding-left: 40px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #555;
+  }
+  
+  form button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-end;
+  }
+  
+  form button:hover {
+    background-color: #0b5ed7;
+  }
