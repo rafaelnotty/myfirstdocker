@@ -8,6 +8,7 @@ mkdir mi-proyecto && cd mi-proyecto
 para construir el dockerfile
 
 docker build -t python38:latest .
+docker build -t rafaelnotty/myfirstdocker .
 latest es el nombre del contenedor en este caso con base ppython 3.8
 
 para saber que imagenes docker tenemos en el entorno
@@ -16,5 +17,7 @@ docker images
 
 para correr run el docker
 
+docker run -p 5000:5000 6076196ac687
+docker run -p 5000:5000 myfirstdocker
 docker run --rm -it mi-proyecto
 
