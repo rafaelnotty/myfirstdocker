@@ -56,6 +56,7 @@
           <form method="POST" action="{{ url_for('ejecutar') }}">
             <input type="submit" value="Ejecutar código Python">
           </form>
+          {{ table | safe }}
         </ul>
       </article>
     </section>   
