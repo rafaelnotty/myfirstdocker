@@ -1,7 +1,5 @@
 from flask import Flask, render_template
 import subprocess
-import numpy as np
-import pandas as pd
 
 app = Flask(__name__)
 
