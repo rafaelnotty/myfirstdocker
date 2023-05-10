@@ -21,3 +21,6 @@ docker run -p 5000:5000 6076196ac687
 docker run -p 5000:5000 rafaelnotty/myfirstdocker 
 docker run --rm -it mi-proyecto
 
+si no esta ejecutandose el servicio docker en la terminal
+
+sudo service docker start
