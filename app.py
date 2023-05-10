@@ -6,10 +6,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    #return render_template('index.html')
-    data = {'fecha': ['5/22/20', '5/23/20', '5/24/20'], 'valor1': [10, 20, 30], 'valor2': [15, 25, 35]}
-    df = pd.DataFrame(data)
-    table = df.to_html()
     return render_template('index.html')
 
 @app.route('/ejecutar', methods=['POST'])
@@ -22,7 +18,7 @@ def ejecutar():
 def tabla():
     data = {'fecha': ['5/22/20', '5/23/20', '5/24/20'], 'valor1': [10, 20, 30], 'valor2': [15, 25, 35]}
     df = pd.DataFrame(data)
-    table_html = df.to_html()
-    return render_template('index.html', table=table)
+    table = df.to_html()
+    return render_template('tabla.html', table=table)
 
 
