@@ -19,6 +19,7 @@ para correr run el docker
 
 docker run -p 5000:5000 6076196ac687
 docker run -p 5000:5000 rafaelnotty/myfirstdocker 
+docker run -p 5000:5000 rafaelnotty/mydocker2
 docker run --rm -it mi-proyecto
 
 si no esta ejecutandose el servicio docker en la terminal
