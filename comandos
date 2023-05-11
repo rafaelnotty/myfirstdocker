@@ -9,6 +9,7 @@ para construir el dockerfile
 
 docker build -t python38:latest .
 docker build -t rafaelnotty/myfirstdocker .
+docker build -t rafaelnotty/mydocker2 .
 latest es el nombre del contenedor en este caso con base ppython 3.8
 
 para saber que imagenes docker tenemos en el entorno
